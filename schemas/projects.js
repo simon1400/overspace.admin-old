@@ -26,6 +26,11 @@ export default {
       }
     },
     {
+      name: 'bigBlock',
+      title: 'Velky blok',
+      type: 'boolean'
+    },
+    {
       name: 'images',
       title: 'Obrazky',
       type: 'array',
@@ -42,6 +47,15 @@ export default {
       name: 'content',
       title: 'Content',
       type: 'blockContent'
+    }
+  ],
+  orderings: [
+    {
+      title: 'Element "Pozice"',
+      name: 'short',
+      by: [
+        {field: 'short', direction: 'asc'}
+      ]
     }
   ],
 
